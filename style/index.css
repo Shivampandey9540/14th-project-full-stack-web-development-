@@ -1,0 +1,204 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Container {
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.Navbar {
+  width: 70%;
+  float: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../Image/pexels-rfstudio-3819572.jpg");
+}
+.left-section {
+  width: 100%;
+}
+
+.Navigation {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.dancing-img-container > img {
+  width: 300px;
+}
+
+.Heading-section {
+  display: flex;
+  align-items: flex-end;
+  grid-area: Heading;
+}
+
+.Social-media {
+  height: 300px;
+  display: flex;
+  grid-area: Socialmedia;
+  align-items: center;
+}
+.Social-media > ul > li {
+  list-style: none;
+  display: inline;
+  width: 36px;
+}
+.Check-button {
+  margin-right: 5px;
+  display: flex;
+  height: 43px;
+  grid-area: button;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Check-button > button {
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  background-color: black;
+  margin-top: 22px;
+  color: white;
+  margin-right: 67px;
+  border-radius: 4px;
+  width: 34%;
+  height: 86%;
+}
+.Creative-section {
+  display: grid;
+  /* grid-template-areas: "Heading Heading Socialmedia"
+                        "Heading button button"; */
+
+  grid-template-areas: "Heading Heading Socialmedia" "Heading Heading Socialmedia" "button button button";
+}
+
+.Navigation > ul {
+  padding-top: 20px;
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+}
+.Navigation > ul > li {
+  font-size: 20px;
+  list-style: none;
+}
+
+.line {
+  margin-top: 29px;
+  width: 49%;
+  height: 2px;
+  background-color: #000000;
+}
+
+h1 {
+  font-size: 104px;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.Heading-section h3 {
+  font-size: 30px;
+  color: #808080;
+}
+span {
+  padding-left: 207px;
+  color: black;
+}
+
+.Social-media > ul {
+  margin-right: 83px;
+  width: 100%;
+  float: right;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: flex-end;
+  align-items: flex-end;
+}
+
+.Lower-section {
+  width: 90%;
+  display: flex;
+  height: 500px;
+  justify-content: space-between;
+}
+.Activity-section ul {
+  display: grid;
+  grid-template-areas:
+    " Linethrough photo"
+    "Linethrough video"
+    " Linethrough Graphic"
+    " Linethrough Illust"
+    " Linethrough Animation";
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.Line-through {
+  grid-area: Linethrough;
+  right: 13px;
+
+  width: 1px;
+  position: relative;
+  height: 81%;
+  background-color: #000000;
+}
+
+.photoGraphy {
+  font-weight: 700;
+  grid-area: photo;
+}
+.video {
+  color: #808080;
+  grid-area: video;
+}
+.Graphic {
+  color: #808080;
+  grid-area: Graphic;
+}
+.Illust {
+  color: #808080;
+  grid-area: Illust;
+}
+.Animation {
+  color: #808080;
+  grid-area: Animation;
+}
+.Activity-section > div {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  align-items: center;
+}
+
+.dancing-img-container {
+  position: relative;
+  left: 26px;
+  top: 4px;
+}
+.dancing-img-container > img {
+  width: 600px;
+}
+.Activity-section > div > h3 {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.Navbar > img {
+  margin-top: 27px;
+  margin-left: 72px;
+}
